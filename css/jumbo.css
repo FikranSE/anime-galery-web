@@ -1,0 +1,128 @@
+
+.box-main{
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+    padding-top:90px;
+}
+.out-jumbo-bx{
+    display:flex;
+    justify-content:space-between;
+    align-items:start;
+}
+.out-jumbo-bx .jumbo-bx{
+    max-width:500px;
+    position:relative;
+}
+.play{
+    position:absolute;
+    top:45%;
+    left:67%;
+}
+.out-jumbo-bx .jumbo-bx video{
+    width:700px;
+    object-fit:cover;
+    border-radius:20px;
+    cursor:pointer;
+}
+.out-jumbo-bx .info-jumbo{
+    width:350px;
+    margin-right:180px;
+}
+.info-jumbo h1{
+    font-family: 'Radio Canada', sans-serif;
+}
+.info-jumbo .status-char{
+    font-size:14px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+}
+.info-jumbo .detail-char{
+    margin-top:20px;
+    font-family: roboto,arial;
+    font-size:14px; 
+}
+.btn-char {
+    margin-top:30px;
+}
+.btn-char a{
+    text-decoration:none;
+    font-weight:bold;
+    font-size:14px;
+    font-family: 'Merriweather', serif;
+    letter-spacing:1px;
+    color:black;
+    padding:7px 22px;
+    border:2px solid #af795d;
+    border-radius:2px;
+    transition:0.5s;
+}
+.btn-char a:hover{
+    background-color:#af795d;
+    color:#eeefef;
+}
+
+.thumb-bx{
+    width:100%;
+    height:150px;;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:5px;
+    position:relative;
+    background:#eeefef;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius:5px;
+}
+.out-thumbnail{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.thumbnail{
+    position:absolute;
+    left:0;
+    top:20px;
+}
+.thumbnail video{
+    width:200px;
+    border-radius:10px;
+    cursor:pointer;
+    filter:grayscale(1);
+    transition:all 0.3s;
+}
+.thumbnail video:hover{
+    filter:grayscale(0);
+    transform:scale(1.1);
+}
+.swiper{
+    width:1250px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background-color:blue;
+    width:22px;
+    height:7px;
+    border-radius:25px;
+}
+.waifu-title{
+    margin-top:20px;
+}
+
+.waifu-title h3{
+    font-size:25px;
+    font-family: 'Merriweather', serif;
+}
+.loli-title{
+    margin-left:30px;
+}
+.loli-title h3{
+    font-size:25px;
+    font-family: 'Merriweather', serif;
+}
+
+/* js */
+.active{
+    filter:grayscale(0);
+    transform:scale(1.1);
+}
