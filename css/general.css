@@ -6,8 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#efe7e6;
-    overflow: scroll;
+    background-color:#171120;
     min-height:100vh;
     padding-bottom:100px;
 }

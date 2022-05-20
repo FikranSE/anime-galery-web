@@ -7,59 +7,57 @@
 }
 .out-jumbo-bx{
     display:flex;
-    justify-content:space-between;
-    align-items:start;
+    justify-content:start;
+    align-items:center;
 }
 .out-jumbo-bx .jumbo-bx{
-    max-width:500px;
-    position:relative;
+    max-width:800px;
+    margin-right:30px;
 }
-.play{
-    position:absolute;
-    top:45%;
-    left:67%;
-}
+
 .out-jumbo-bx .jumbo-bx video{
-    width:700px;
+    width:100%;
     object-fit:cover;
     border-radius:20px;
     cursor:pointer;
 }
 .out-jumbo-bx .info-jumbo{
     width:350px;
-    margin-right:180px;
+    
 }
 .info-jumbo h1{
     font-family: 'Radio Canada', sans-serif;
+    color:#fff;
 }
 .info-jumbo .status-char{
     font-size:14px;
-    font-weight:bold;
     font-family: 'Poppins', sans-serif;
+    color:#ee5bd5;
 }
 .info-jumbo .detail-char{
     margin-top:20px;
     font-family: roboto,arial;
     font-size:14px; 
+    color:#fff5;
 }
 .btn-char {
     margin-top:30px;
+    transition:all 0.5s ease;
 }
 .btn-char a{
     text-decoration:none;
     font-weight:bold;
-    font-size:14px;
-    font-family: 'Merriweather', serif;
+    font-size:15px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     letter-spacing:1px;
     color:black;
     padding:7px 22px;
-    border:2px solid #af795d;
-    border-radius:2px;
-    transition:0.5s;
+    border-radius:50px;
+    background:linear-gradient(to right, #F900BF, #8bbae9);
+    transition:all 0.5s ease;
 }
-.btn-char a:hover{
-    background-color:#af795d;
-    color:#eeefef;
+.btn-char:hover{
+    transform:scale(1.05);
 }
 
 .thumb-bx{
@@ -70,9 +68,6 @@
     align-items:center;
     margin-top:5px;
     position:relative;
-    background:#eeefef;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    border-radius:5px;
 }
 .out-thumbnail{
     display:flex;
@@ -112,6 +107,7 @@
 .waifu-title h3{
     font-size:25px;
     font-family: 'Merriweather', serif;
+    color:#fff;
 }
 .loli-title{
     margin-left:30px;
@@ -119,6 +115,7 @@
 .loli-title h3{
     font-size:25px;
     font-family: 'Merriweather', serif;
+    color:#fff;
 }
 
 /* js */

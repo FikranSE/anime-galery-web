@@ -8,7 +8,7 @@ main{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#eeefef;
+    background:#171120;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     z-index:999;
 }
@@ -17,7 +17,7 @@ main{
 }
 .main-menu-bar .bi{
     font-size:20px;
-    color:black;
+    color:#fff;
     transition:0.3s;
 }
 .main-menu-bar .bi:hover{
